@@ -2,12 +2,12 @@
 <html lang="en-US">
 
 <head>
-	<link rel="stylesheet" href="style.css">
+	<!-- link rel="stylesheet" href="normalize.css"-->
+	<link rel="stylesheet" href="examplestyles.css">
 	<title>Intro to AD</title>
 </head>
 
 <body>
-
 	<header>
 		<h1>Alain-Daniel's Bio</h1>
 		<hr>
@@ -18,76 +18,71 @@
 			<a href="http://www.gccjackson.com" target="_blank">GCC Jackson</a>
 			<!-- <a href="#">Pictures</a> -->
 		</nav>
-		<hr>
-		<nav>
-			<h2 hidden>Page Overview</h2>
-			<p>On this page, you will have:</p>
-			<ul>
-				<li><a href="#introduction">A Brief Introduction</a></li>
-				<li><a href="#fun_facts">Some Fun Facts</a></li>
-				<li><a href="#favorite_passage">A Favorite Passage</a></li>
-				<li><a href="#my_address">My Address</a></li>
-			</ul>
-		</nav>
 	</header>
+	<main class="main  with-0 with-1 with-2">
+		<section class="homepage-section  standalone-module">
+			<div>
+				<h2>Intro</h2>
+				<p>
+					My name is <strong>Alain-Daniel</strong>. I am a follower of Christ. I love everything good Computer Science and
+					Engineering. For the purpose of this class, let's say that I was born on <em>January 1, 1991</em>.
+				</p>
+			</div>
+		</section>
+		<section class="homepage-section  standalone-module">
+			<div>
+				<h2>Fun Facts</h2>
+				<p>Following are some very important and fun facts about me:</p>
+				<ul>
+					<li>I love swimming. I like to tell people that <cite>I swim as good as a rock!</cite>
+					</li>
+					<li>I wasn't actually born on <abbr title="January">Jan.</abbr> 1, 1991. Here are some other years I wasn't born:
+						<ol>
+							<li>1800</li>
+							<li>1700</li>
+							<li>2000</li>
+						</ol>
+					</li>
+					<li>There is more to be learned about me if you <a href="https://www.google.com">Google</a> my name.
+					</li>
+					<li>I do not mind dogs.</li>
+				</ul>
+				<figure>
+					<a href="inquisitive_dog.jpg" target="_blank"><img src="inquisitive_dog.jpg" alt="Man's Best Companion" width="200"></a>
+					<figcaption><small> Figure: Man's best companion's.</small></figcaption>
+				</figure>
+			</div>
+		</section>
+		<section class="homepage-section  standalone-module">
+			<div>
+				<h2>Favorite Passage</h2>
+				<blockquote cite="https://www.biblegateway.com/passage/?search=John+3&version=KJV">
+					<p> For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not
+						perish, but have everlasting life.
 
-	<main>
-		<div>
-			<h2 id="introduction">Introduction</h2>
-			<p>
-				My name is <strong>Alain-Daniel</strong>. I am a follower of Christ. I love everything good Computer Science and
-				Engineering. For the purpose of this class, let's say that I was born on <em>January 1, 1991</em>.
-			</p>
-		</div>
+						For God sent not his Son into the world to condemn the world; but that the world through him might be saved. </p>
 
-		<div>
-			<h2 id="fun_facts">Fun Facts</h2>
-			<p>Following are some very important and fun facts about me:</p>
-			<ul>
-				<li>I love swimming. I like to tell people that <cite>I swim as good as a rock!</cite>
-				</li>
-				<li>I wasn't actually born on <abbr title="January">Jan.</abbr> 1, 1991. Here are some other years I wasn't born:
-					<ol>
-						<li>1800</li>
-						<li>1700</li>
-						<li>2000</li>
-					</ol>
-				</li>
-				<li>There is more to be learned about me if you <a href="https://www.google.com">Google</a> my name.
-				</li>
-				<li>I do not mind dogs.</li>
-			</ul>
-			<figure>
-				<a href="inquisitive_dog.jpg" target="_blank"><img src="inquisitive_dog.jpg" alt="Man's Best Companion" width="200"></a>
-				<figcaption><small> The official man's best companion's.</small></figcaption>
-			</figure>
-		</div>
-		<div>
-			<h2 id="favorite_passage">Favorite Passage</h2>
-			<blockquote>
-				<p> For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not
-					perish, but have everlasting life.
+					<p> He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not
+						believed in the name of the only begotten Son of God.
 
-					For God sent not his Son into the world to condemn the world; but that the world through him might be saved. </p>
+						And this is the condemnation, that light is come into the world, and men loved darkness rather than light,
+						because
+						their deeds were evil. </p>
 
-				<p> He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not
-					believed in the name of the only begotten Son of God.
+					<p> For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be
+						reproved.
 
-					And this is the condemnation, that light is come into the world, and men loved darkness rather than light, because
-					their deeds were evil. </p>
-
-				<p> For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved.
-
-					But he that doeth truth cometh to the light, that his deeds may be made manifest, that they are wrought in God.
-					<cite><a href="https://www.biblegateway.com/passage/?search=John+3&version=KJV"> -John 3:16-21</a></cite></p>
-			</blockquote>
-		</div>
+						But he that doeth truth cometh to the light, that his deeds may be made manifest, that they are wrought in God.
+						<span><a href="https://www.biblegateway.com/passage/?search=John+3&version=KJV"> - John 3:16-21</a></span> </p>
+				</blockquote>
+			</div>
+		</section>
 	</main>
 
 	<footer>
 		<div>
-			<h2 id="my_address">My Address</h2>
-			<address>1 Street Over Dr, Gotham City, PA 12345.</address>
+			<h2>My Address</h2>
+			<address>1 One Street Over, Gatham City, PA 12345.</address>
 		</div>
 		<br>
 		<hr>
