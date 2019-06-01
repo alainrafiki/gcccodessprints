@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0
+  width: 60%;
+  margin: auto;
 }
 
 ul,
@@ -144,22 +144,6 @@ html {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 106.25%;
   quotes: "â€œ" "â€"
-}
-
-[lang]:lang(ar) {
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-[lang]:lang(ja) {
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-[lang]:lang(ko) {
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-:lang(es-ES) {
-  quotes: "Â«" "Â»"
 }
 
 
@@ -1785,20 +1769,6 @@ html[dir=rtl] .icon-copy {
   unicode-bidi: embed
 }
 
-:lang(ar) .icon-question::before,
-:lang(ar) .icon-question::after {
-  content: "ïŒ²"
-}
-
-:lang(ar) .icon-questioncircle::before,
-:lang(ar) .icon-questioncircle::after {
-  content: "ïŒ°"
-}
-
-:lang(ar) .icon-questionsolid::before,
-:lang(ar) .icon-questionsolid::after {
-  content: "ïŒ±"
-}
 
 body {
   min-width: 320px
@@ -2099,43 +2069,6 @@ body {
       letter-spacing: -.003em;
       font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
-  .typography-headline-elevated:lang(ar) {
-      line-height: 1.25;
-      letter-spacing: 0em;
-      font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(ja) {
-      line-height: 1.14615;
-      letter-spacing: 0em;
-      font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(ko) {
-      line-height: 1.1875;
-      letter-spacing: 0em;
-      font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(th) {
-      font-size: 43px;
-      line-height: 1.34884;
-      letter-spacing: 0em;
-      font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(zh) {
-      letter-spacing: 0em
-  }
-  .typography-headline-elevated:lang(zh-CN) {
-      font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(zh-HK) {
-      font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(zh-MO) {
-      font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-  .typography-headline-elevated:lang(zh-TW) {
-      font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-}
 
 @media only screen and (max-width: 735px) {
   .typography-headline-elevated {
