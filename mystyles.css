@@ -44,6 +44,10 @@ body {
   color: white;
 }
 
+.hidden {
+  display: none !important;
+}
+
 ul,
 ol,
 li,
