@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- link rel="stylesheet" href="normalize.css"-->
+    <link rel="stylesheet" href="mystyles.css" />
+    <title>Intro to AD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div id="accessibility" class="hidden">
+      <ul>
+        <li>
+          <a href="#mainContent" title="Jumps to main content"
+            >Jump to main content</a
+          >
+        </li>
+      </ul>
+    </div>
+    <aside class="sidemenu">
+      <ul>
+        <li><a href="index.html#intro">Intro</a></li>
+        <li><a href="index.html#funfacts">Fun Facts</a></li>
+        <li><a href="index.html#favoritepassage">Favorite Passage</a></li>
+        <li><a href="index.html#myaddress">My Address</a></li>
+        <li><a href="faq.html">F.A.Q.</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+    <div class="bodycontainer" id="mainContent">
+      <header>
+        <h1>Alain-Daniel's Bio</h1>
+        <hr />
+      </header>
+      <main class="main">
+        <section class="homepage-section  standalone-module">
+          <div>
+            <h2 id="intro">Contact Me</h2>
+            <form action="" method="get" class="form_contact" id="contact_me">
+              <div class="form_contact">
+                <label for="name">Enter your name: <br /></label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form_contact">
+                <label for="email">Enter your email: <br /></label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="form_contact">
+                <label for="email">Your message: <br /></label>
+                <textarea
+                  form="contact_me"
+                  name="form_content"
+                  id="form_textarea"
+                ></textarea>
+              </div>
+              <div class="form_contact">
+                <input type="submit" value="Submit!" />
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          <!--Just an empty paragraph for separation with the main content-->
+        </p>
+        <br />
+        <hr />
+        <div class="footnote">
+          <small>Disclaimer: This is mostly filler text. </small>
+          <p>
+            &copy; 2019-2020
+            <a href="https://RafikiTechnology.com" target="_blank"
+              >RafikiTechnology.com</a
+            >
+          </p>
+          <p></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
