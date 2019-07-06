@@ -1,1 +1,1 @@
-# GCC Codes Sprint 1, 2, etc.
+# GCC Codes Sprint 1, 2, 3 etc.
